@@ -16,7 +16,8 @@ for line in lines:
     new_lines.append(f"{a} {b} {random_num}\n")
 
 # 将结果写入一个新的txt文件
-mkdir higgs-social_network
+
+
 with open('higgs-social_network/graph.txt', 'w') as file:
     file.writelines(new_lines)
 
