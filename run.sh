@@ -18,7 +18,7 @@ fileName="SignedKReachability"
 mkdir data/higgs
 cd  data
 python3 gen.py
-
+cd ..
 
 
 g++ -O3 SignedKReachability.cpp  -o SignedKReachability -std=c++17
