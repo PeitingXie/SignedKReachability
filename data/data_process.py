@@ -19,8 +19,8 @@ import pandas as pd
 
 
 # Open the input file and the output file
-input_file_path = 'edges.csv'  # Replace this with the path to your input file
-output_file_path = 'baidu.txt'  # The file where you want to save the result
+input_file_path = 'higgs.txt'  # Replace this with the path to your input file
+output_file_path = 'higgs1.txt'  # The file where you want to save the result
 
 # Read the input file and write only the first two columns to the output file
 with open(input_file_path, 'r') as infile, open(output_file_path, 'w') as outfile:

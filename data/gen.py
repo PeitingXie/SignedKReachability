@@ -1,7 +1,7 @@
 import random
 
 # 读取txt文件
-with open('higgs-social_network.txt', 'r') as file:
+with open('higgs1.txt', 'r') as file:
     lines = file.readlines()
 
 # 处理每一行
@@ -18,7 +18,7 @@ for line in lines:
 # 将结果写入一个新的txt文件
 
 
-with open('higgs-social_network/graph.txt', 'w') as file:
+with open('higgs/graph.txt', 'w') as file:
     file.writelines(new_lines)
 
 print("处理完成，新数据已保存到new_data.txt")

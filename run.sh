@@ -15,5 +15,11 @@ fileName="SignedKReachability"
 
 # sed -i '1,4d' filename
 
+mkdir data/higgs
+cd  data
+python3 gen.py
+
+
+
 g++ -O3 SignedKReachability.cpp  -o SignedKReachability -std=c++17
 ./SignedKReachability data/higgs-social_network $code$
